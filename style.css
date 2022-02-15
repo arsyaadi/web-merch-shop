@@ -470,6 +470,9 @@ footer ul  li a{
 }
 
 @media(max-width: 576px) {
+    .container{
+        margin: 0px;
+    }
 
     body{
         margin: 15px;
