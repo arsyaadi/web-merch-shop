@@ -34,7 +34,7 @@ img{
     grid-template-areas: 
      'hero hero feat-1'
      'hero hero feat-2';
-    background-color: black;
+    gap: 5px;
 }
 
 .hero{
@@ -47,6 +47,8 @@ img{
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.8);
 }
 
 .hero >*{
@@ -61,6 +63,8 @@ img{
    align-content: center; */
    place-content: center;
    text-align: center;
+   box-sizing: border-box;
+   box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.8);
 }
 
 .features .text{
