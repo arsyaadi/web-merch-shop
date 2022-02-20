@@ -476,6 +476,7 @@ footer ul  li a{
 @media(max-width: 576px) {
     .container{
         margin: 0px;
+        overflow-x: hidden;
     }
 
     body{
@@ -509,7 +510,6 @@ footer ul  li a{
         opacity: 1;
         transform: translateX(0);
    }
-
    .items a{
        font-size: 2em;
        left: 70px;
